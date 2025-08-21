@@ -13,9 +13,27 @@
             android:layout_height="match_parent" android:gravity="center"
             android:padding="30sp" android:id="@+id/layConteudo">
         <TextView
-                android:text="Seu IMC foi de"
+                android:text="Calculadora de IMC"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/txtNome" android:textAlignment="center"
                 android:textSize="16sp" android:textStyle="bold"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextNumber2" android:hint="Peso (em kg, ex. 72)" android:minHeight="48dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editTextNumberDecimal" android:hint="Altura (em m, ex. 1.72)"
+                android:minHeight="48dp"/>
+        <Button
+                android:text="Calcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnCalc" android:elevation="1sp"
+                android:backgroundTint="#8BC34A"/>
     </LinearLayout>
 </LinearLayout>

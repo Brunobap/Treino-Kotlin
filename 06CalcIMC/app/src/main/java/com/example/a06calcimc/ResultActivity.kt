@@ -8,8 +8,6 @@ import androidx.core.view.WindowInsetsCompat
 
 class ResultActivity : AppCompatActivity() {
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
